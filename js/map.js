@@ -1,4 +1,4 @@
-	geo_service = 'http://localhost:8080/geoserver/bandothuyvan/wms?';
+	geo_service = 'http://123.30.236.192:8080/geoserver/detaivcdnew/wms?';
 
 	
 	mbUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
@@ -13,56 +13,56 @@
 	});
 	
 	var trambom = L.tileLayer.betterWms(geo_service, {
-		layers: 'bandothuyvan:trambom_4326',
+		layers: 'detaivcdnew:trambom_4326',
 		format: 'image/png',
 		transparent: true,
 		tiled: true
 	});
 	
 	var giaothong = L.tileLayer.betterWms(geo_service, {
-		layers: 'bandothuyvan:giaothong',
+		layers: 'detaivcdnew:giaothong',
 		format: 'image/png',
 		transparent: true,
 		tiled: true
 	});
 	
 	var debao = L.tileLayer.betterWms(geo_service, {
-		layers: 'bandothuyvan:debao',
+		layers: 'detaivcdnew:debao',
 		format: 'image/png',
 		transparent: true,
 		tiled: true
 	});
 	
 	var dapdat = L.tileLayer.betterWms(geo_service, {
-		layers: 'bandothuyvan:dapdat',
+		layers: 'detaivcdnew:dapdat',
 		format: 'image/png',
 		transparent: true,
 		tiled: true
 	});
 	
 	var conghop = L.tileLayer.betterWms(geo_service, {
-		layers: 'bandothuyvan:congtrinhconghop',
+		layers: 'detaivcdnew:congtrinhconghop',
 		format: 'image/png',
 		transparent: true,
 		tiled: true
 	});
 	
 	var cln = L.tileLayer.betterWms(geo_service, {
-		layers: 'bandothuyvan:CLN',
+		layers: 'detaivcdnew:CLN',
 		format: 'image/png',
 		transparent: true,
 		tiled: true
 	});
 	
 	var congtron = L.tileLayer.betterWms(geo_service, {
-		layers: 'bandothuyvan:congtrinhcongtron',
+		layers: 'detaivcdnew:congtrinhcongtron',
 		format: 'image/png',
 		transparent: true,
 		tiled: true
 	});
 	
 	var rghc = L.tileLayer.betterWms(geo_service, {
-		layers: 'bandothuyvan:ranhgioihc',
+		layers: 'detaivcdnew:ranhgioihc',
 		format: 'image/png',
 		transparent: true,
 		tiled: true
