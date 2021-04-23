@@ -1,4 +1,4 @@
-geo_service = 'http://localhost:8080/geoserver/bandothuyvan/wms?';
+geo_service = 'http://123.30.236.192:8080/geoserver/detaivcdnew/wms?';
 
 	
 	mbUrl = 'https://www.siwrp.org.vn/';
@@ -23,7 +23,7 @@ geo_service = 'http://localhost:8080/geoserver/bandothuyvan/wms?';
 	});
 	
 	var debao = L.tileLayer.betterWms(geo_service, {
-		layers: 'bandothuyvan:debao',
+		layers: 'detaivcdnew:debao',
 		format: 'image/png',
 		transparent: true,
 		tiled: true
