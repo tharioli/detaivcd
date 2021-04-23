@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Đề tài</title>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/x-icon" href="lib/images/VQHTL.jpg" />
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="lib/leaflet.css">
+  <link rel="stylesheet" href="css/index.css">
+  
+  <script src="lib/jquery.min.js"></script>
+  <script src="lib/bootstrap.min.js"></script>
+  <script src="lib/leaflet.js" ></script>
+  <script src="lib/L.TileLayer.BetterWMS.js" ></script>
+  <script src="lib/leaflet.ajax.js" ></script>
+  
+</head>
+<body>
+
+<div class="gallery">
+  <a target="_blank" href="https://siwrp.org.vn/">
+    <img src="image/VQHTL.jpg" width="70" height="65">
+  </a>
+</div>
+
+
+<header>
+<p></p>
+<p>Đề tài nghiên cứu ảnh hưởng của nguồn thải, xâm nhập mặn đến chất lượng nước và đề xuất giải pháp</p> 
+<p>quản lý vận hành hệ thống công trình thủy lợi vùng hạ du sông Sài Gòn-Vàm Cỏ Đông</p> 
+</header>
+<div class="container-fluid">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+	<p><center><b>DANH MỤC CÔNG TRÌNH</b></center></p>
+	<p><center>* * *</center></p>
+	<p></p>
+		<table class="table table-hover">
+		<thead>
+		  <tr>
+			<th>Chú thích</th>
+			<th>Ký hiệu</th>
+		  </tr>
+		</thead>
+		<tbody>
+		  <tr>
+			<td><a href= "gis/conghop" target=_blank>Công trình cống hộp</a></td>
+			<td><center><image src="legend/conghop.png"></center></td>
+		  </tr>
+		  <tr>
+			<td><a href= "gis/congtron" target=_blank>Công trình cống tròn</a></td>
+			<td><center><image src="legend/congtron.png"></center></td>
+		  </tr>
+		   <tr>
+			<td><a href= "gis/CLN" target=_blank>Trạm đo CLN</a></td>
+			<td><center><image src="legend/CLN.png"></center></td>
+		  </tr>
+		  <tr>
+			<td><a href= "gis/dapdat" target=_blank>Đập đất</a></td>
+			<td><center><image src="legend/dapdat.png"></center></td>
+		  </tr>
+		  <tr>
+			<td><a href= "gis/debao" target=_blank>Đê bao</a></td>
+			<td><center><image src="legend/debao.png"></center></td>
+		  </tr>
+		  <tr>
+			<td><a href= "#" target=_blank>Trạm bơm</a></td>
+			<td><center><image src="legend/trambom.png"></center></td>
+		  </tr>
+		  <tr>
+			<td>Giao thông</td>
+			<td><center><image src="legend/giaothong.png"></center></td>
+		  </tr>
+		  <tr>
+			<td>Ranh hành chính</td>
+			<td><center><image src="legend/ranhgioihc.png"></center></td>
+		  </tr>
+		</tbody>
+	  </table>
+	  <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+	 <p><center><b>DANH MỤC TÀI LIỆU</b></center></p>
+	<div class="document">
+	  <a target="_blank" href="document.html">
+		<img src="image/document.jfif" width="110" height="100">
+	  </a>
+	</div>	 
+    </div>
+    <div class="col-sm-10 no_padding"> 
+	<div id='map'></div>
+	
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p></p>
+  <p><center>VIỆN QUY HOẠCH THỦY LỢI MIỀN NAM</center></p>
+</footer>
+<script type="text/javascript" src="js/funcs.js"></script>
+<script type="text/javascript" src="js/map.js"></script>
+</body>
+</html>

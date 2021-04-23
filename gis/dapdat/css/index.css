@@ -1,0 +1,40 @@
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 91vh;}
+
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #1f78b4;
+      color: white;
+      padding: 17px;
+	  text-align: center;
+	  padding-left: 80px;
+    }
+
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;}
+    }
+	#map {
+		width: 100%;
+		height: 91vh;
+	}
+	/* custom css for index */
+	
+	.no_padding {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	#kq {
+		height: 40vh;
+		overflow-y: scroll;
+	}

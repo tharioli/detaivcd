@@ -1,0 +1,64 @@
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+	  background-color: #555;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 600px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 0px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #1f78b4;
+      color: white;
+      padding: 5px;
+	  /* text-align: center; */
+	  padding-left: 80px;
+    }
+	header {
+		padding: 1px;
+		text-align: center;
+		background: #1f78b4;
+		color:#ffffff;
+		font-size: 20px;
+		text-indent-right: 0px;
+		line-height: 1 ;
+	}
+	
+	#map {
+		width: 100%;
+		height: 600px;
+	}
+	.no_padding {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	div.gallery {
+		margin-top: 3px;
+		margin-left: 90px;
+		float: left;
+		float: top;
+		width: 75px;
+	}
+	div.gallery:hover {
+		border: 1px solid #777;
+	}	
+	#tableFixHead {
+        overflow-y: scroll;
+        height: 24vh;
+      }
+	  
+	  div.document {
+		margin-top: 3px;
+		margin-left: 60px;
+		float: left;
+		float: top;
+	}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Công trình cống hộp</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/x-icon" href="lib/images/gis.jpg" />
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="lib/leaflet.css">
+  <link rel="stylesheet" href="css/index.css">
+  
+  
+  <script src="lib/jquery.min.js"></script>
+  <script src="lib/bootstrap.min.js"></script>
+  <script src="lib/leaflet.js" ></script>
+  <script src="lib/L.TileLayer.BetterWMS.js" ></script>
+  <script src="lib/leaflet.ajax.js" ></script>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h2>Vị trí cống</h2>
+	  <hr>
+	  <h4><small>Tìm kiếm</small></h4>
+	  <form action="xuly.php">
+	  <div class="form-group">
+		<label for="name">Nhập tên cống:</label>
+		<input type="text" class="form-control" id="name">
+	  </div>
+	  <div class="form-group">
+		<label for="vitri">Nhập vị trí:</label>
+		<input type="text" class="form-control" id="vitri">
+	  </div>
+	  <button type="button" class="btn btn-default"
+	  onclick="timkiem();">Tìm kiếm</button>
+	  <button type="reset" class="btn btn-default">Làm lại</button>
+	  </form>
+	  <hr>
+	  <div id="kq">Kết quả ở đây</div>
+    </div>
+	
+	<div class="col-sm-9 no_padding">
+	<div id='map'></div>
+		
+	</div>
+  </div>
+</div>
+
+<footer class="container-fluid">
+  <p></p>
+  <p>VIỆN QUY HOẠCH THỦY LỢI MIỀN NAM</p>
+</footer>
+<script type="text/javascript" src="js/funcs.js"></script>
+<script type="text/javascript" src="js/map.js"></script>
+</body>
+</html>

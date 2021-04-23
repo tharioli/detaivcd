@@ -1,0 +1,44 @@
+	.tableFixHead {
+        overflow-y: auto;
+        height: 570px;
+      }
+	  .center{
+		margin-left: auto; 
+		margin-right: auto;
+	  }
+      .tableFixHead thead th {
+        position: sticky;
+        top: 0;
+      }
+      table {
+        border-collapse: collapse;
+        width: 600px;
+      }
+      td {
+		text-align:left;
+        padding: 8px 8px;
+        border: 1px solid #ccc;
+      }
+      th {
+        background: #eee;
+		padding: 8px 8px;
+        border: 1px solid #ccc;
+      }
+
+	 header {
+		padding: 20px;
+		text-align: center;
+		background: #1f78b4;
+		color:#ffffff;
+		font-size: 20px;
+		text-indent-right: 0px;
+	}
+	footer {
+      background-color: #1f78b4;
+      color: white;
+      padding: 1px;
+	  text-align: center;
+	  font-size: 15px;
+	  /* padding-left: 80px; */
+    }
+	.row.content {height: 578px}
